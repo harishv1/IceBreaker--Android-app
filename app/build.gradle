@@ -1,0 +1,59 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion "21.1.2"
+
+    defaultConfig {
+        applicationId "com.example.faceeventapp"
+        minSdkVersion 8
+        targetSdkVersion 8
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+android {
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES.txt'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/notice.txt'
+        exclude 'META-INF/license.txt'
+        exclude 'META-INF/dependencies.txt'
+        exclude 'META-INF/LGPL2.1'
+    }
+}
+
+dependencies {
+    compile files('libs/aws-android-sdk-2.1.7-autoscaling.debug.jar')
+    compile files('libs/aws-android-sdk-2.1.7-cloudwatch.debug.jar')
+    compile files('libs/aws-android-sdk-2.1.7-core.debug.jar')
+    compile files('libs/aws-android-sdk-2.1.7-ddb-mapper.debug.jar')
+    compile files('libs/aws-android-sdk-2.1.7-ddb.debug.jar')
+    compile files('libs/aws-android-sdk-2.1.7-ec2.debug.jar')
+    compile files('libs/aws-android-sdk-2.1.7-elb.debug.jar')
+    compile files('libs/aws-android-sdk-2.1.7-kinesis.debug.jar')
+    compile files('libs/aws-android-sdk-2.1.7-mobileanalytics.debug.jar')
+    compile files('libs/aws-android-sdk-2.1.7-s3.debug.jar')
+    compile files('libs/aws-android-sdk-2.1.7-sdb.debug.jar')
+    compile files('libs/aws-android-sdk-2.1.7-ses.debug.jar')
+    compile files('libs/aws-android-sdk-2.1.7-sns.debug.jar')
+    compile files('libs/aws-android-sdk-2.1.7-sqs.debug.jar')
+    compile files('libs/commons-codec-1.6.jar')
+    compile files('libs/commons-logging-1.1.3.jar')
+    compile files('libs/fluent-hc-4.3.6.jar')
+    compile files('libs/httpclient-4.3.6.jar')
+    compile files('libs/httpclient-cache-4.3.6.jar')
+    compile files('libs/httpcore-4.3.3.jar')
+    compile files('libs/httpmime-4.3.6.jar')
+    compile 'com.android.support:support-v4:21.0.3'
+}

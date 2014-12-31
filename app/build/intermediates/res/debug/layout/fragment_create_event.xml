@@ -1,0 +1,171 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg5"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.faceeventapp.CreateEvent" >
+
+    <EditText
+        android:id="@+id/eventTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/eventName"
+        android:layout_toRightOf="@+id/eventTimeLabel"
+        android:ems="10"
+        />
+
+    <EditText
+        android:id="@+id/eventDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/eventTime"
+        android:layout_toRightOf="@+id/eventDateLabel"
+        android:ems="10"
+        />
+
+    <EditText
+        android:id="@+id/eventName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/eventTime"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/eventTime"
+        android:ems="10"
+        >
+
+
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/eventDateLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/eventDate"
+        android:layout_alignLeft="@+id/eventTimeLabel"
+        android:text="Event Date:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/eventTimeLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/eventTime"
+        android:layout_alignLeft="@+id/eventNameLabel"
+        android:text="Event Time:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/eventNameLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/eventName"
+        android:layout_alignLeft="@+id/eventDescriptionLabel"
+        android:text="Event Name:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/eventDescriptionLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/eventDateLabel"
+        android:layout_marginTop="15dp"
+        android:text="Event Description:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/eventCategoryLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/eventDescriptionLabel"
+        android:layout_centerVertical="true"
+        android:text="Choose event category:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/eventVenueLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/eventDescription"
+        android:layout_marginTop="15dp"
+        android:text="Event Venue:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <RadioGroup
+        android:id="@+id/radioCategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/eventCategoryLabel"
+        android:layout_below="@+id/eventCategoryLabel" >
+
+        <RadioButton
+            android:id="@+id/radioTechnology"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Technology" />
+
+        <RadioButton
+            android:id="@+id/radioFashion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fashion" />
+
+        <RadioButton
+            android:id="@+id/radioSports"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sports" />
+
+        <RadioButton
+            android:id="@+id/radioFood"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Food" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/eventDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/eventDescriptionLabel"
+        android:layout_below="@+id/eventDescriptionLabel"
+        android:ems="10"
+        android:inputType="textMultiLine" />
+
+    <!--<EditText-->
+    <!--android:id="@+id/eventVenue"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_alignLeft="@+id/eventVenueLabel"-->
+    <!--android:ems="10"-->
+    <!--android:inputType="textMultiLine" />-->
+
+    <Button
+        android:id="@+id/createButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:onClick="createEvent"
+        android:text="Create Event" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/eventVenue"
+        android:layout_above="@+id/eventCategoryLabel"
+        android:layout_alignLeft="@+id/createButton"
+        android:layout_alignStart="@+id/createButton"
+        android:layout_alignRight="@+id/eventDate"
+        android:layout_alignEnd="@+id/eventDate" />
+
+</RelativeLayout><!-- From: file:/Users/rashmitonge/AndroidStudioProjects/FaceEventApp2/app/src/main/res/layout/fragment_create_event.xml -->

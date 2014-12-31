@@ -1,0 +1,145 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg5"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.faceeventapp.Signup" >
+
+    <TextView
+      android:id="@+id/signup_title"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentTop="true"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="18dp"
+      android:text="@string/signup"
+      android:textAppearance="?android:attr/textAppearanceLarge" />
+     <EditText
+      android:id="@+id/username_text"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignBottom="@+id/user_label"
+      android:layout_marginLeft="32dp"
+      android:layout_toRightOf="@+id/user_label"
+      android:ems="10" />
+     <requestFocus />
+       <EditText
+      android:id="@+id/pass_signup"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignBottom="@+id/pass_label"
+      android:layout_alignLeft="@+id/username_text"
+      android:ems="10"
+      android:inputType="textPassword" />
+         <CheckBox
+           android:id="@+id/technology_checkbox"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentLeft="true"
+           android:layout_below="@+id/pass_label"
+           android:layout_marginTop="47dp"
+           android:text="Technology" />
+       
+
+       <CheckBox
+           android:id="@+id/fashion_checkbox"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignLeft="@+id/technology_checkbox"
+           android:layout_below="@+id/technology_checkbox"
+           android:text="Fashion" />
+
+       <CheckBox
+           android:id="@+id/food_checkbox"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignLeft="@+id/sports_checkbox"
+           android:layout_below="@+id/sports_checkbox"
+           android:text="Food" />
+       
+
+       <CheckBox
+           android:id="@+id/sports_checkbox"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignLeft="@+id/fashion_checkbox"
+           android:layout_below="@+id/fashion_checkbox"
+           android:text="Sports" />
+     
+     <EditText
+      android:id="@+id/interest_text"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignBottom="@+id/interest_label"
+      android:layout_marginLeft="32dp"
+      android:layout_toRightOf="@+id/interest_label"
+      android:ems="10" />
+
+       <TextView
+           android:id="@+id/user_label"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignLeft="@+id/textView1"
+           android:layout_below="@+id/signup_title"
+           android:layout_marginTop="27dp"
+           android:text="@string/username" />
+
+       <TextView
+           android:id="@+id/pass_label"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignRight="@+id/user_label"
+           android:layout_below="@+id/user_label"
+           android:layout_marginTop="22dp"
+           android:text="@string/password" />
+
+       <Button
+           android:id="@+id/button1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignLeft="@+id/signup_title"
+           android:layout_alignParentBottom="true"
+           android:onClick="register"
+           android:text="Register" />
+
+       <TextView
+           android:id="@+id/interest_label"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_above="@+id/button1"
+           android:layout_alignLeft="@+id/pass_label"
+           android:layout_marginBottom="20dp"
+           android:text="Interests" />
+
+       <TextView
+           android:id="@+id/textView1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignLeft="@+id/technology_checkbox"
+           android:layout_below="@+id/pass_signup"
+           android:layout_marginTop="17dp"
+           android:text="Event Categories for subscription" />
+
+       <Button
+           android:id="@+id/upload_picture"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_above="@+id/interest_label"
+           android:layout_alignLeft="@+id/interest_text"
+           android:text="Upload Picture"
+           android:textSize="15dp" 
+           android:onClick="upload"
+           />
+<ImageView
+        android:id="@+id/imgView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pass_signup"
+        android:layout_weight="1"></ImageView>
+
+</RelativeLayout>
+<!-- From: file:/Users/rashmitonge/AndroidStudioProjects/FaceEventApp2/app/src/main/res/layout/activity_signup.xml -->

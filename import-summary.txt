@@ -1,0 +1,69 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .gitignore
+* ic_launcher-web.png
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:19.1.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* libs/aws-android-sdk-2.1.7-autoscaling.debug.jar => app/libs/aws-android-sdk-2.1.7-autoscaling.debug.jar
+* libs/aws-android-sdk-2.1.7-cloudwatch.debug.jar => app/libs/aws-android-sdk-2.1.7-cloudwatch.debug.jar
+* libs/aws-android-sdk-2.1.7-core.debug.jar => app/libs/aws-android-sdk-2.1.7-core.debug.jar
+* libs/aws-android-sdk-2.1.7-ddb-mapper.debug.jar => app/libs/aws-android-sdk-2.1.7-ddb-mapper.debug.jar
+* libs/aws-android-sdk-2.1.7-ddb.debug.jar => app/libs/aws-android-sdk-2.1.7-ddb.debug.jar
+* libs/aws-android-sdk-2.1.7-ec2.debug.jar => app/libs/aws-android-sdk-2.1.7-ec2.debug.jar
+* libs/aws-android-sdk-2.1.7-elb.debug.jar => app/libs/aws-android-sdk-2.1.7-elb.debug.jar
+* libs/aws-android-sdk-2.1.7-kinesis.debug.jar => app/libs/aws-android-sdk-2.1.7-kinesis.debug.jar
+* libs/aws-android-sdk-2.1.7-mobileanalytics.debug.jar => app/libs/aws-android-sdk-2.1.7-mobileanalytics.debug.jar
+* libs/aws-android-sdk-2.1.7-s3.debug.jar => app/libs/aws-android-sdk-2.1.7-s3.debug.jar
+* libs/aws-android-sdk-2.1.7-sdb.debug.jar => app/libs/aws-android-sdk-2.1.7-sdb.debug.jar
+* libs/aws-android-sdk-2.1.7-ses.debug.jar => app/libs/aws-android-sdk-2.1.7-ses.debug.jar
+* libs/aws-android-sdk-2.1.7-sns.debug.jar => app/libs/aws-android-sdk-2.1.7-sns.debug.jar
+* libs/aws-android-sdk-2.1.7-sqs.debug.jar => app/libs/aws-android-sdk-2.1.7-sqs.debug.jar
+* libs/commons-codec-1.6.jar => app/libs/commons-codec-1.6.jar
+* libs/commons-logging-1.1.3.jar => app/libs/commons-logging-1.1.3.jar
+* libs/fluent-hc-4.3.6.jar => app/libs/fluent-hc-4.3.6.jar
+* libs/httpclient-4.3.6.jar => app/libs/httpclient-4.3.6.jar
+* libs/httpclient-cache-4.3.6.jar => app/libs/httpclient-cache-4.3.6.jar
+* libs/httpcore-4.3.3.jar => app/libs/httpcore-4.3.3.jar
+* libs/httpmime-4.3.6.jar => app/libs/httpmime-4.3.6.jar
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

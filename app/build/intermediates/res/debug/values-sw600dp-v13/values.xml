@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/rashmitonge/AndroidStudioProjects/FaceEventApp2/app/src/main/res/values-sw600dp/refs.xml -->
+    <eat-comment/>
+    <item name="fragment_event2" type="layout">@layout/fragment_event_grid</item>
+    <item name="fragment_myactivity" type="layout">@layout/fragment_myactivity_grid</item>
+    <item name="fragment_myevents" type="layout">@layout/fragment_myevents_grid</item>
+    <item name="fragment_whoallaregoing" type="layout">@layout/fragment_whoallaregoing_grid</item>
+</resources>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/rashmitonge/AndroidStudioProjects/FaceEventApp2/app/libs/httpclient-4.3.6.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f3cf3b25e14d3bca47773e95aa85ea8fefbf8e81">
+        <dex dex="/Users/rashmitonge/AndroidStudioProjects/FaceEventApp2/app/build/intermediates/pre-dexed/debug/httpclient-4.3.6-ea8cbf068120db5b75fbb1d34e2d0b3d583671de.jar" />
+    </item>
+    <item
+        jar="/Users/rashmitonge/AndroidStudioProjects/FaceEventApp2/app/libs/aws-android-sdk-2.1.7-sdb.debug.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b444434eb9aa2d3157e9138b016d5e2f028cc604">
+        <dex dex="/Users/rashmitonge/AndroidStudioProjects/FaceEventApp2/app/build/intermediates/pre-dexed/debug/aws-android-sdk-2.1.7-sdb.debug-96b7183ec1860a419c358de97f501ba24c4d84f2.jar" />
+    </item>
+    <item
+        jar="/Users/rashmitonge/AndroidStudioProjects/FaceEventApp2/app/libs/aws-android-sdk-2.1.7-elb.debug.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f05a9df2839ded72481ffa9595065213bc0eb9cd">
+        <dex dex="/Users/rashmitonge/AndroidStudioProjects/FaceEventApp2/app/build/intermediates/pre-dexed/debug/aws-android-sdk-2.1.7-elb.debug-982820c654c7b53979e298a24260fd63fbcf9e9d.jar" />
+    </item>
+    <item
+        jar="/Users/rashmitonge/AndroidStudioProjects/FaceEventApp2/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/Users/rashmitonge/AndroidStudioProjects/FaceEventApp2/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-457e314f0d5c4296e70cb980058a45b0692e7cfa.jar" />
+    </item>
+    <item
+        jar="/Users/rashmitonge/AndroidStudioProjects/FaceEventApp2/app/libs/aws-android-sdk-2.1.7-ddb.debug.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4399f12cc05b76f6fa6d9ee6b9f5832206a72b90">
+        <dex dex="/Users/rashmitonge/AndroidStudioProjects/FaceEventApp2/app/build/intermediates/pre-dexed/debug/aws-android-sdk-2.1.7-ddb.debug-339fe3581d9825a23f7f5b186f3bcec01953c0e6.jar" />
+    </item>
+    <item
+        jar="/Users/rashmitonge/AndroidStudioProjects/FaceEventApp2/app/libs/httpclient-cache-4.3.6.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="fe96f9012712b5aa743769037a2e00fc6ee4b80f">
+        <dex dex="/Users/rashmitonge/AndroidStudioProjects/FaceEventApp2/app/build/intermediates/pre-dexed/debug/httpclient-cache-4.3.6-3ce6d2cdfa11d3aa1996c7ff182518145d27d886.jar" />
+    </item>
+    <item
+        jar="/Users/rashmitonge/AndroidStudioProjects/FaceEventApp2/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/Users/rashmitonge/AndroidStudioProjects/FaceEventApp2/app/build/intermediates/pre-dexed/debug/classes-9ce3dcab944dd3fcab1eef6660e6ef901fddf722.jar" />
+    </item>
+    <item
+        jar="/Users/rashmitonge/AndroidStudioProjects/FaceEventApp2/app/libs/commons-codec-1.6.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b7f0fc8f61ecadeb3695f0b9464755eee44374d4">
+        <dex dex="/Users/rashmitonge/AndroidStudioProjects/FaceEventApp2/app/build/intermediates/pre-dexed/debug/commons-codec-1.6-8fb347bba481a6dacc5df70c4561e90280b75fbf.jar" />
+    </item>
+    <item
+        jar="/Users/rashmitonge/Documents/Android/adt-bundle-mac-x86_64-20140702/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/Users/rashmitonge/AndroidStudioProjects/FaceEventApp2/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-ef72f57a612c647d329451ab7b437100f42c9830.jar" />
+    </item>
+    <item
+        jar="/Users/rashmitonge/AndroidStudioProjects/FaceEventApp2/app/libs/commons-logging-1.1.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f">
+        <dex dex="/Users/rashmitonge/AndroidStudioProjects/FaceEventApp2/app/build/intermediates/pre-dexed/debug/commons-logging-1.1.3-13fb0ee3f59e340a5245e30667ee8cb33854df96.jar" />
+    </item>
+    <item
+        jar="/Users/rashmitonge/AndroidStudioProjects/FaceEventApp2/app/libs/aws-android-sdk-2.1.7-core.debug.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="32bfea0584b689200a60b3ec0d9ce4aab7bffa15">
+        <dex dex="/Users/rashmitonge/AndroidStudioProjects/FaceEventApp2/app/build/intermediates/pre-dexed/debug/aws-android-sdk-2.1.7-core.debug-a9f22ef02139607e29190db07f74bbaabca03c63.jar" />
+    </item>
+    <item
+        jar="/Users/rashmitonge/AndroidStudioProjects/FaceEventApp2/app/libs/aws-android-sdk-2.1.7-cloudwatch.debug.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e0c2f60f84bcb538615a1b9e412c302e9566d035">
+        <dex dex="/Users/rashmitonge/AndroidStudioProjects/FaceEventApp2/app/build/intermediates/pre-dexed/debug/aws-android-sdk-2.1.7-cloudwatch.debug-080bf3df4699ca321a4d15d22a618e154fb1f178.jar" />
+    </item>
+    <item
+        jar="/Users/rashmitonge/AndroidStudioProjects/FaceEventApp2/app/libs/aws-android-sdk-2.1.7-ses.debug.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="900ed23ce7580b4b729d74645520efe14d49a2ed">
+        <dex dex="/Users/rashmitonge/AndroidStudioProjects/FaceEventApp2/app/build/intermediates/pre-dexed/debug/aws-android-sdk-2.1.7-ses.debug-02d5c3e272d387bdef0169ca9e57919b29f671ee.jar" />
+    </item>
+    <item
+        jar="/Users/rashmitonge/AndroidStudioProjects/FaceEventApp2/app/libs/httpcore-4.3.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f91b7a4aadc5cf486df6e4634748d7dd7a73f06d">
+        <dex dex="/Users/rashmitonge/AndroidStudioProjects/FaceEventApp2/app/build/intermediates/pre-dexed/debug/httpcore-4.3.3-846e24d7906d9db3e7127983691cf4a0add98842.jar" />
+    </item>
+    <item
+        jar="/Users/rashmitonge/AndroidStudioProjects/FaceEventApp2/app/libs/fluent-hc-4.3.6.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="352d90a003c85819b6e007ac9dcd9967c62da1f9">
+        <dex dex="/Users/rashmitonge/AndroidStudioProjects/FaceEventApp2/app/build/intermediates/pre-dexed/debug/fluent-hc-4.3.6-2e26165033a406f4fd67cb5882b7e98fec6298c7.jar" />
+    </item>
+    <item
+        jar="/Users/rashmitonge/AndroidStudioProjects/FaceEventApp2/app/libs/aws-android-sdk-2.1.7-s3.debug.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="735f85023088d70f9298bdbb67c74060ede44db1">
+        <dex dex="/Users/rashmitonge/AndroidStudioProjects/FaceEventApp2/app/build/intermediates/pre-dexed/debug/aws-android-sdk-2.1.7-s3.debug-6afb7f4df8c6b60acf40a87ab71419e946b12792.jar" />
+    </item>
+    <item
+        jar="/Users/rashmitonge/AndroidStudioProjects/FaceEventApp2/app/libs/aws-android-sdk-2.1.7-mobileanalytics.debug.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="bb0edc35a209c3998c96d5ed9609f86d95d4ad19">
+        <dex dex="/Users/rashmitonge/AndroidStudioProjects/FaceEventApp2/app/build/intermediates/pre-dexed/debug/aws-android-sdk-2.1.7-mobileanalytics.debug-794bad0af857d93d57f31937c9ddeb8a995f8e19.jar" />
+    </item>
+    <item
+        jar="/Users/rashmitonge/AndroidStudioProjects/FaceEventApp2/app/libs/aws-android-sdk-2.1.7-kinesis.debug.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="bb1a506e05697a54010890f32cbd031aa0ec273d">
+        <dex dex="/Users/rashmitonge/AndroidStudioProjects/FaceEventApp2/app/build/intermediates/pre-dexed/debug/aws-android-sdk-2.1.7-kinesis.debug-ddf3f2c73280414378420cd5a8a4a7a815f29ae6.jar" />
+    </item>
+    <item
+        jar="/Users/rashmitonge/AndroidStudioProjects/FaceEventApp2/app/libs/httpmime-4.3.6.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="66a39a5e37d5da40fdad6176fc24ef4316e74702">
+        <dex dex="/Users/rashmitonge/AndroidStudioProjects/FaceEventApp2/app/build/intermediates/pre-dexed/debug/httpmime-4.3.6-8ffb08dc5f1fc5162837c1b157ff2bc7543315cb.jar" />
+    </item>
+    <item
+        jar="/Users/rashmitonge/AndroidStudioProjects/FaceEventApp2/app/libs/aws-android-sdk-2.1.7-ddb-mapper.debug.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="524a0b5388958abe2aecf304fad75235d093438c">
+        <dex dex="/Users/rashmitonge/AndroidStudioProjects/FaceEventApp2/app/build/intermediates/pre-dexed/debug/aws-android-sdk-2.1.7-ddb-mapper.debug-76c8de105e252dfd8bbc01a6362ceef8078bf69e.jar" />
+    </item>
+    <item
+        jar="/Users/rashmitonge/AndroidStudioProjects/FaceEventApp2/app/libs/aws-android-sdk-2.1.7-ec2.debug.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="39e72a27284169d99e1dece3f4c4cc9c30479a9a">
+        <dex dex="/Users/rashmitonge/AndroidStudioProjects/FaceEventApp2/app/build/intermediates/pre-dexed/debug/aws-android-sdk-2.1.7-ec2.debug-cf66e1d0d5945b94cb69aa9cf5f08c64c4084f61.jar" />
+    </item>
+    <item
+        jar="/Users/rashmitonge/AndroidStudioProjects/FaceEventApp2/app/libs/aws-android-sdk-2.1.7-autoscaling.debug.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a0e2ea1243eb1da92f7bec247f6189b945ef244e">
+        <dex dex="/Users/rashmitonge/AndroidStudioProjects/FaceEventApp2/app/build/intermediates/pre-dexed/debug/aws-android-sdk-2.1.7-autoscaling.debug-b39e4f0c724c0426697af5630a76d2d9949aa935.jar" />
+    </item>
+    <item
+        jar="/Users/rashmitonge/AndroidStudioProjects/FaceEventApp2/app/libs/aws-android-sdk-2.1.7-sns.debug.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="20106ab5163d1557ac00e1de12971fd5d5ca403d">
+        <dex dex="/Users/rashmitonge/AndroidStudioProjects/FaceEventApp2/app/build/intermediates/pre-dexed/debug/aws-android-sdk-2.1.7-sns.debug-8217dd81ce317be83235825506e72ae675dbb9c7.jar" />
+    </item>
+    <item
+        jar="/Users/rashmitonge/AndroidStudioProjects/FaceEventApp2/app/libs/aws-android-sdk-2.1.7-sqs.debug.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="62d02a6428931e3cfb836751b8704877cb83c12d">
+        <dex dex="/Users/rashmitonge/AndroidStudioProjects/FaceEventApp2/app/build/intermediates/pre-dexed/debug/aws-android-sdk-2.1.7-sqs.debug-6247a765a7310e2049a231083e8f4837afdc09a1.jar" />
+    </item>
+
+</items>

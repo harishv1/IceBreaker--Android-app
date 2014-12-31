@@ -1,0 +1,130 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg5"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.faceeventapp.EventsActivity" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/user_interests"
+        android:layout_alignTop="@+id/user_interests"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <GridLayout
+        android:id="@+id/gridLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/linearLayout1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="26dp" >
+    </GridLayout>
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignRight="@+id/imageView3"
+        android:layout_alignTop="@+id/imageView4"
+        android:src="@drawable/food" />
+
+    <ImageView
+        android:id="@+id/user_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxHeight="100dp"
+        android:maxWidth="100dp"
+        android:src="@drawable/profile"
+        android:layout_marginTop="67dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="42dp"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"/>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/technology"
+        android:layout_alignRight="@+id/user_name"
+        android:layout_centerVertical="true" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/sport"
+        android:layout_alignLeft="@+id/imageView4"
+        android:layout_centerVertical="true" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="79dp"
+        android:layout_toRightOf="@+id/linearLayout1"
+        android:src="@drawable/fashion" />
+
+    <CheckBox
+        android:id="@+id/cat_sports"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView2"
+        android:layout_toLeftOf="@+id/linearLayout1" />
+
+    <CheckBox
+        android:id="@+id/cat_fashion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView4"
+        android:layout_toLeftOf="@+id/linearLayout1" />
+
+    <CheckBox
+        android:id="@+id/cat_food"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView5"
+        android:layout_toLeftOf="@+id/imageView3" />
+
+    <TextView
+        android:id="@+id/user_interests"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Interests: "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginTop="31dp"
+        android:textSize="25sp"
+        android:layout_below="@+id/user_profile"
+        android:layout_alignLeft="@+id/user_profile" />
+
+    <TextView
+        android:id="@+id/user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User Name:"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="33sp"
+        android:textColor="#000000"
+        android:layout_above="@+id/user_interests"
+        android:layout_marginLeft="10dp"
+        android:inputType="textMultiLine"
+        android:layout_toRightOf="@+id/user_profile" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cat_technology"
+        android:layout_alignTop="@+id/cat_sports"
+        android:layout_alignLeft="@+id/cat_food"
+        android:checked="false" />
+
+</RelativeLayout><!-- From: file:/Users/rashmitonge/AndroidStudioProjects/FaceEventApp2/app/src/main/res/layout/fragment_profile.xml -->

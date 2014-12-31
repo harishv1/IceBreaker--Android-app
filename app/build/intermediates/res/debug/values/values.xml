@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/rashmitonge/AndroidStudioProjects/FaceEventApp2/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_people</item>
+        <item>@drawable/ic_photos</item>
+        <item>@drawable/ic_communities</item>
+        <item>@drawable/ic_pages</item>
+        <item>@drawable/ic_whats_hot</item>
+    </array>
+    <string-array name="nav_drawer_items">
+        <item>Home</item>
+        <item>Profile</item>
+        <item>My Events</item>
+        <item>Create Event</item>
+        <item>Logout</item>
+        <item>What\'s Hot</item>
+    </string-array>
+    <string-array name="nav_events_items">
+        <item>View Event</item>
+        <item>Profile</item>
+        <item>I am going!</item>
+        <item>Take a Picture</item>
+        <item>See who is going</item>
+        <item>Back to Home</item>
+        <item>LogOut</item>
+    </string-array>
+    <!-- From: file:/Users/rashmitonge/AndroidStudioProjects/FaceEventApp2/app/src/main/res/values/color.xml -->
+    <eat-comment/>
+    <color name="counter_text_bg">#626262</color>
+    <color name="counter_text_color">#c5c4c4</color>
+    <color name="list_background">#303030</color>
+    <color name="list_background_pressed">#992416</color>
+    <color name="list_divider">#272727</color>
+    <color name="list_item_title">#fff</color>
+    <!-- From: file:/Users/rashmitonge/AndroidStudioProjects/FaceEventApp2/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="navigation_drawer_width">240dp</dimen>
+    <!-- From: file:/Users/rashmitonge/AndroidStudioProjects/FaceEventApp2/app/src/main/res/values/refs.xml -->
+    <eat-comment/>
+    <item name="fragment_event" type="layout">@layout/fragment_event_list</item>
+    <item name="fragment_event2" type="layout">@layout/fragment_event_list</item>
+    <item name="fragment_myactivity" type="layout">@layout/fragment_myactivity_list</item>
+    <item name="fragment_myevents" type="layout">@layout/fragment_myevents_list</item>
+    <item name="fragment_whoallaregoing" type="layout">@layout/fragment_whoallaregoing_list</item>
+    <!-- From: file:/Users/rashmitonge/AndroidStudioProjects/FaceEventApp2/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="Login">Login</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">Slider Menu</string>
+    <string name="attempts">Attempts Left:</string>
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="password">Password:</string>
+    <string name="signup">Signup</string>
+    <string name="technology">Technology</string>
+    <string name="title_activity_event">EventActivity</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_home_nav">HomeNavActivity</string>
+    <string name="title_activity_nav_draw">ProfileActivity</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="title_activity_profile_home">ProfileActivity</string>
+    <string name="title_activity_signup">Sign Up</string>
+    <string name="title_activity_take_new_picture">TakeNewPictureActivity</string>
+    <string name="title_activity_test_server">TestServerActivity</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="username">Username:</string>
+    <!-- From: file:/Users/rashmitonge/AndroidStudioProjects/FaceEventApp2/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>

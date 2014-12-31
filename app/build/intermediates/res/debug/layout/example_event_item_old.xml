@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg5"
+    android:layout_height="100dp">
+
+    <TextView
+        android:id="@+id/eventListTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/eventListName"
+        android:layout_centerVertical="true"
+        android:text="Time &amp; Date"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/eventListTime"
+        android:layout_alignLeft="@+id/eventListName"
+        android:layout_alignTop="@+id/eventListTime"
+        android:layout_toLeftOf="@+id/eventListTime"
+        android:src="@drawable/time" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView1"
+        android:layout_below="@+id/eventListTime"
+        android:src="@drawable/loc" />
+
+    <TextView
+        android:id="@+id/eventListVenue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView2"
+        android:layout_toRightOf="@+id/imageView2"
+        android:text="Location"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/eventListName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="19dp"
+        android:layout_toEndOf="@+id/eventListCategory"
+        android:layout_toRightOf="@+id/eventListCategory"
+        android:text="Event Name"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ImageView
+        android:id="@+id/eventListCategory"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/Login"
+        android:src="@drawable/food" />
+
+</RelativeLayout>
+<!-- From: file:/Users/rashmitonge/AndroidStudioProjects/FaceEventApp2/app/src/main/res/layout/example_event_item_old.xml -->
